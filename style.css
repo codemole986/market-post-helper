@@ -1,0 +1,175 @@
+.issp {}
+.issp .row {margin-bottom: 20px;}
+
+.issp pre.preview {
+	width: 100%;
+	white-space: normal;
+    max-height: 100px;
+}
+
+.wp-intrinio_show_news-wrap {}
+#wp-intrinio_show_news-editor-tools {}
+
+
+#intrinio_post_disclaimer_box {
+    background: #a182a5;
+    border-color: #443544;
+}
+#intrinio_post_disclaimer_box h2 {
+    border-color: #503c50;
+    color: #ffeaff;
+}
+
+
+#intrinio_load_news {
+	background: #93a4b1;
+    border-color: #748baf;
+}
+#intrinio_load_news h2 {
+	border-color: #748baf;
+	color: #f2f9ff;
+}
+#intrinio_load_news .inside .overlay {
+	position: absolute;
+    width: 100%;
+    left: 0;
+    top: -10px;
+    bottom: 0;
+    background: #eee url(img/ui-anim_basic_16x16.gif) no-repeat center center;
+    z-index: 10;
+    opacity: 0.8;
+    display: none;
+}
+
+#intrinio_load_news.loading .inside .overlay {
+	display: block;
+}
+
+#intrinio_full_loading {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: -10px;
+    bottom: 0;
+    background: #eee url(img/ui-anim_basic_16x16.gif) no-repeat center center;
+    z-index: 1000000;
+    opacity: 0.8;
+    display: none;
+}
+#intrinio_full_loading.loading {
+    display: block;
+}
+
+.issp .template-list {
+    border-left: solid 1px #ddd;
+}
+
+#intrinio_finviz_items_wrapper {position: relative;}
+#intrinio_finviz_items_wrapper .overlay {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -10px;
+    bottom: 0;
+    background: #eee url(img/ui-anim_basic_16x16.gif) no-repeat center center;
+    z-index: 10;
+    opacity: 0.8;
+    display: none;
+}
+#intrinio_finviz_items_wrapper.loading .overlay {display: block;}
+#intrinio_finviz_items {min-height: 200px;}
+.finviz-item, .quandl-item {
+    display: inline-block;
+    padding: 2px 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+#intrinio_quandl_items_wrapper {position: relative;}
+#intrinio_quandl_items_wrapper .overlay {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -10px;
+    bottom: 0;
+    background: #eee url(img/ui-anim_basic_16x16.gif) no-repeat center center;
+    z-index: 10;
+    opacity: 0.8;
+    display: none;
+}
+#intrinio_quandl_items_wrapper.loading .overlay {display: block;}
+#intrinio_quandl_items {min-height: 200px;}
+.quandl-section {
+    display: block;
+    border-bottom: solid 1px #aaa;
+    margin: 20px 0;
+}
+
+ul.nav-tabs *:focus {outline: none; box-shadow: none;}
+
+
+
+/* highlight results */
+.ui-autocomplete span.hl_results {
+    background-color: #ffff66;
+}
+ 
+/* loading - the AJAX indicator */
+.ui-autocomplete-loading {
+    background: white url('img/ui-anim_basic_16x16.gif') right center no-repeat !important;
+}
+ 
+/* scroll results */
+.ui-autocomplete {
+    max-height: 250px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /* add padding for vertical scrollbar */
+    padding-right: 5px;
+}
+ 
+.ui-autocomplete li {
+    font-size: 16px;
+}
+ 
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+* html .ui-autocomplete {
+    height: 250px;
+}
+
+#intrinio_title_list_row {}
+#intrinio_title_list {margin-bottom: 10px; height: 42px; background: #6b8090; color: #fff;}
+
+.mph-bulk-list-groups .nav-tabs { margin: 0; border: none; }
+.mph-bulk-list-groups .nav-tabs>li { padding: 0; margin-bottom: 2px; }
+.mph-bulk-list-groups .nav-tabs>li>a {
+    border: solid 1px #86add0; 
+    border-radius: 50px; 
+    white-space: nowrap;
+    color: #337ab7; 
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mph-bulk-list-groups .nav-tabs>li>a:hover {
+    background-color: #d4e9fb;
+}
+.mph-bulk-list-groups .nav-tabs>li.active>a, 
+.mph-bulk-list-groups .nav-tabs>li.active>a:focus, 
+.mph-bulk-list-groups .nav-tabs>li.active>a:hover {
+    color: #337ab7;
+    background-color: #b3d6f5;
+    border-color: #86add0;
+}
+
+.mph-bulk-list-groups .tab-content {
+    margin: 20px 0 0 0;
+    border: dashed 3px #c6dcf1;
+    padding: 20px 20px 0 20px;
+}
+
+.display-block {display: block;}

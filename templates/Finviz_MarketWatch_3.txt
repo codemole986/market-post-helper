@@ -1,0 +1,13 @@
+[market_watch ticker=AAPL item=name] ([market_watch ticker=AAPL item=ticker])’s current stock price of $[finviz_code ticker=AAPL item=65] indicates a change of [finviz_code ticker=AAPL item=66]% from the previous session. 
+While the equity is currently trading close to $[finviz_code ticker=AAPL item=65], analysts on the average expect the stock trading around of $[finviz_code ticker=AAPL item=69] in the next 12 months.
+Analyzing historical, you can note that the stock’s high over the last 12-months is $[finviz_code ticker=AAPL item=57] and its lowest over the comparable period is $[finviz_code ticker=AAPL item=58].
+Let’s look into the stock charts:
+[intr_chart ticker=AAPL]
+[intr_bto ticker=AAPL]
+The average closing price of the equity for the last 20 days, or termed as 20-day simple moving average, is $[finviz_code ticker=AAPL item=52]. For the previous 50 days and 200 days, the equity’s closing has averaged $[finviz_code ticker=AAPL item=53] and $[finviz_code ticker=AAPL item=54], respectively.
+How volatile is [market_watch ticker=AAPL item=name]’s stock paralleled to the market? The stock’s beta is [finviz_code ticker=AAPL item=48]. Beta is a degree of stock volatility. So, a beta less than one exhibits that an equity is less volatile compared to the market and a beta that is greater than one compared to stock is increasingly volatile than the market. 
+Pertaining to volatility measurement, we can note that [market_watch ticker=AAPL item=name]’s weekly volatility is [finviz_code ticker=AAPL item=50], while its monthly volatility is [finviz_code ticker=AAPL item=51].
+Furthermore, the stock’s ATR (average true range) is [finviz_code ticker=AAPL item=49]. ATR calculates the degree of a stock’s price volatility. 
+Coming to stock performance, find the scorecard of [market_watch ticker=AAPL item=name]’s stock price action for the previous one week going back to the preceding one year. The stock has moved [finviz_code ticker=AAPL item=42]% in the last, while it has moved [finviz_code ticker=AAPL item=43]% in the past one month.
+The stock has moved [finviz_code ticker=AAPL item=44]% over the past 3-months of one quarter. So far in this year, the stock has moved [finviz_code ticker=AAPL item=47]%, compared with a movement of [finviz_code ticker=AAPL item=46]% in the last 12-months.
+Other than equity performance, where does [market_watch ticker=AAPL item=name] stand financially? The firm closed the previous quarter with cash balance of [market_watch ticker=AAPL item=cash_mrq]%, bringing its total assets at the close of the quarter to $[market_watch ticker=AAPL item=total_assets]. But the firm is carrying a debt of [market_watch ticker=AAPL item=debt_mrq]% and total liabilities of $[market_watch ticker=AAPL item=total_liab]. 

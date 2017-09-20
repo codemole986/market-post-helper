@@ -1,0 +1,4 @@
+dev.php
+/vendor
+composer.lock
+tmp.zip

@@ -1,0 +1,14 @@
+The EPS of $[market_watch ticker=AAPL item=eps] that [market_watch ticker=AAPL item=name] ([market_watch ticker=AAPL item=ticker]) posted in the previous quarter came from sales of [market_watch ticker=AAPL item=sales_mrq]%. Sales increased [finviz_code ticker=AAPL item=23]% from the prior quarter, whereas EPS increased [finviz_code ticker=AAPL item=22]% also from the previous quarter.
+To generate [market_watch ticker=AAPL item=sales_mrq]% in sales, the company invested $[market_watch ticker=AAPL item=cost_gsold], as the cost of goods sold. The gross margin for the quarter amounted to $[market_watch ticker=AAPL item=gross_income] after removing the cost of goods sold out of the sales figure.
+Let’s look into the stock charts.
+[intr_chart ticker=AAPL]
+[intr_bto ticker=AAPL]
+Can [market_watch ticker=AAPL item=name] fund its operations in the predictable future? The firm closed the previous quarter with cash balance of [market_watch ticker=AAPL item=cash_mrq]%. It recorded free cash flow of $[market_watch ticker=AAPL item=free_cash_flow] in the quarter, with operating activities resulting in $[market_watch ticker=AAPL item=net_op_cash] in net cash flow.
+Digging deeper into [market_watch ticker=AAPL item=name]’s liquidity, you note that its current ratio closing the most recent quarter was [finviz_code ticker=AAPL item=35], which quick ratio for the equivalent period was [finviz_code ticker=AAPL item=36].
+[market_watch ticker=AAPL item=name] closed the quarter with debt of [market_watch ticker=AAPL item=debt_mrq]%, indicating that debt increased/decreased by [market_watch ticker=AAPL item=grth_fail] from the previous quarter.
+That said, the firm’s long-term debt/equity was at [finviz_code ticker=AAPL item=37] while and debt/equity ratios was [finviz_code ticker=AAPL item=38], respectively.
+[market_watch ticker=AAPL item=name]’s total assets at the close of the latest quarter were $[market_watch ticker=AAPL item=total_assets], while total liabilities were $[market_watch ticker=AAPL item=total_liab].
+Analysts have an average recommendation of [finviz_code ticker=AAPL item=62] on the stock [market_watch ticker=AAPL item=name]. In deciphering the analyst call, investors should keep in mind that a call of 1 signifies BUY, 3 implies HOLD and 5 indicates SELL.
+As for the price target, market analysts are projecting the stock to hit $[finviz_code ticker=AAPL item=69] by the close of the imminent 12 months. Considering the stock’s current price of $[finviz_code ticker=AAPL item=65], you can see what market analyst expect to occur to the price in the coming period.
+To trade at the existing price of $[finviz_code ticker=AAPL item=65], the stock has traded in the 52-week range of $[finviz_code ticker=AAPL item=58] to $[finviz_code ticker=AAPL item=57].
+ 
