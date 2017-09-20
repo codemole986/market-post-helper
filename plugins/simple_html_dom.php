@@ -130,10 +130,9 @@ function file_get_html($url, $use_include_path = false, $context=null, $offset =
 
     ob_start();
     $doc->loadHTML(utf8_decode($contents));
-    ob_end_clean();
-
     $contents = $doc->saveHTML();
-
+    ob_end_clean();
+    
     // The second parameter can force the selectors to all be lowercase.
     $contents = str_replace("\r\n", "\n", str_replace('\r\n', "\n", $contents));
     $dom->load($contents, $lowercase, $stripRN, "\n");
