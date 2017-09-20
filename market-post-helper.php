@@ -243,7 +243,7 @@ function intrinio_add_admin_scripts($hook_suffix) {
         wp_enqueue_script( 'jquery-ui', plugin_dir_url(__FILE__) . '/plugins/jquery-ui-1.12.1.custom/jquery-ui.min.js', array ( 'jquery' ), '1.12.1', true);
     // }
 
-    wp_enqueue_style( 'intrinio_admin', plugin_dir_url(__FILE__) . 'style.css',false,'1.9.7','all');
+    wp_enqueue_style( 'intrinio_admin', plugin_dir_url(__FILE__) . 'style.css',false,'1.2','all');
     wp_enqueue_script( 'intrinio_admin', plugin_dir_url(__FILE__) . '/js/admin-script.js', array ( 'jquery' ), '1.9.1', true);
     
 }
