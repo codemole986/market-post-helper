@@ -4,7 +4,7 @@
  * Plugin Name: Market Post Helper
  * Plugin URI: 
  * Description: This plugin adds the short code function to grab stat info from intrinio and other more market source into the post.
- * Version: 1.4.3
+ * Version: 1.5
  * Author: Wilson Breiner
  * Author URI: 
  * License: GPL2
