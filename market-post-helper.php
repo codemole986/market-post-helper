@@ -10,6 +10,8 @@
  * License: GPL2
  */
 
+error_reporting(E_ERROR | E_PARSE);
+
 require_once(dirname(__FILE__) . '/includes.php');
 require_once(dirname(__FILE__) . '/api.php');
 
