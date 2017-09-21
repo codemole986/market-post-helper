@@ -615,7 +615,10 @@ Total Pre-Tax Income:totalpretaxincome';
                     } else {
                         $parsed = $labels[$item][1];
                     }
-
+                } else if ($item == '200day-ma') {
+                    $k1 = '200-Day';
+                    $k2 = 'Moving Average';
+                    if (isset($table[$k1]) && isset($table[$k1][$k2])) $parsed = '$' . $table[$k1][$k2];
                 } else if ($item == '20day-change') {
                     $k1 = '20-Day';
                     $k2 = 'Price Change';
@@ -649,7 +652,7 @@ Total Pre-Tax Income:totalpretaxincome';
                     $k2 = 'Average True Range';
                     if (isset($table[$k1]) && isset($table[$k1][$k2])) $v2 = doubleval($table[$k1][$k2]);
 
-                    $parsed = round($v1 * 100 / $v2, 2);
+                    $parsed = round($v2 * 100 / $v1, 2);
 
                 } else if ($item == '52week-high-low') {
 
