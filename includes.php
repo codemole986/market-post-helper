@@ -653,6 +653,7 @@ Total Pre-Tax Income:totalpretaxincome';
                     if (isset($table[$k1]) && isset($table[$k1][$k2])) $v2 = doubleval($table[$k1][$k2]);
 
                     $parsed = round($v2 * 100 / $v1, 2);
+                    $parsed = $parsed . '%';
 
                 } else if ($item == '52week-high-low') {
 
